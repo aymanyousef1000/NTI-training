@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         $errorMessages['Name'] = "Field Required";
     }else {
         # code...
-        if (!is_string($name)) {
+        if (!ctype_alpha($name)) {
             # code...
             $errorMessages['Name-validity'] = "the name input is not a string";
 
