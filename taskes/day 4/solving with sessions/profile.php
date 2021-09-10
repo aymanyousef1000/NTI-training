@@ -13,7 +13,7 @@
     $pp = $_SESSION['profile picture'];
     echo "preview profile pic :  <a href='./uploads/$pp'>view</a>";
 
-    #----- retrive profile photo was stored as cookie
+    #----- re
     
      
 
